@@ -1,0 +1,188 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="IFSReportingModel.Store" Alias="Self" Provider="System.Data.SqlClient" ProviderManifestToken="2008" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityContainer Name="IFSReportingModelStoreContainer">
+    <EntitySet Name="tblInventoryFeed" EntityType="IFSReportingModel.Store.tblInventoryFeed" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="tblInventoryFeedProcess" EntityType="IFSReportingModel.Store.tblInventoryFeedProcess" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="tblInventoryLog" EntityType="IFSReportingModel.Store.tblInventoryLog" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="tblInvoiceLinesMaster" EntityType="IFSReportingModel.Store.tblInvoiceLinesMaster" store:Type="Tables" store:Schema="dbo" store:Name="tblInvoiceLinesMaster">
+      <DefiningQuery>SELECT 
+      [tblInvoiceLinesMaster].[STATISTIC_NO] AS [STATISTIC_NO], 
+      [tblInvoiceLinesMaster].[STATISTIC_DATE] AS [STATISTIC_DATE], 
+      [tblInvoiceLinesMaster].[INVOICE_ID] AS [INVOICE_ID], 
+      [tblInvoiceLinesMaster].[ITEM_ID] AS [ITEM_ID], 
+      [tblInvoiceLinesMaster].[INVOICE_DATE] AS [INVOICE_DATE], 
+      [tblInvoiceLinesMaster].[INVOICED_QTY] AS [INVOICED_QTY], 
+      [tblInvoiceLinesMaster].[COST] AS [COST], 
+      [tblInvoiceLinesMaster].[SALE_UNIT_PRICE] AS [SALE_UNIT_PRICE], 
+      [tblInvoiceLinesMaster].[DISCOUNT] AS [DISCOUNT], 
+      [tblInvoiceLinesMaster].[BASE_SALE_UNIT_PRICE] AS [BASE_SALE_UNIT_PRICE], 
+      [tblInvoiceLinesMaster].[CURR_DISCOUNT] AS [CURR_DISCOUNT], 
+      [tblInvoiceLinesMaster].[ORDER_DISCOUNT] AS [ORDER_DISCOUNT], 
+      [tblInvoiceLinesMaster].[ORDER_CURR_DISCOUNT] AS [ORDER_CURR_DISCOUNT], 
+      [tblInvoiceLinesMaster].[NET_AMOUNT] AS [NET_AMOUNT], 
+      [tblInvoiceLinesMaster].[PRICE_QTY] AS [PRICE_QTY], 
+      [tblInvoiceLinesMaster].[NET_CURR_AMOUNT] AS [NET_CURR_AMOUNT], 
+      [tblInvoiceLinesMaster].[GROSS_AMOUNT] AS [GROSS_AMOUNT], 
+      [tblInvoiceLinesMaster].[GROSS_CURR_AMOUNT] AS [GROSS_CURR_AMOUNT], 
+      [tblInvoiceLinesMaster].[CATALOG_DESC] AS [CATALOG_DESC], 
+      [tblInvoiceLinesMaster].[CUSTOMER_NAME] AS [CUSTOMER_NAME], 
+      [tblInvoiceLinesMaster].[COUNTRY_DESC] AS [COUNTRY_DESC], 
+      [tblInvoiceLinesMaster].[CUST_GRP_DESC] AS [CUST_GRP_DESC], 
+      [tblInvoiceLinesMaster].[COMPANY_NAME] AS [COMPANY_NAME], 
+      [tblInvoiceLinesMaster].[MARKET_DESC] AS [MARKET_DESC], 
+      [tblInvoiceLinesMaster].[REGION_DESC] AS [REGION_DESC], 
+      [tblInvoiceLinesMaster].[DISTRICT_DESC] AS [DISTRICT_DESC], 
+      [tblInvoiceLinesMaster].[SALESMAN] AS [SALESMAN], 
+      [tblInvoiceLinesMaster].[AUTHORIZE_NAME] AS [AUTHORIZE_NAME], 
+      [tblInvoiceLinesMaster].[PRICE_LIST_DESC] AS [PRICE_LIST_DESC], 
+      [tblInvoiceLinesMaster].[ORDER_NO] AS [ORDER_NO], 
+      [tblInvoiceLinesMaster].[CATALOG_GROUP_DESC] AS [CATALOG_GROUP_DESC], 
+      [tblInvoiceLinesMaster].[CUSTOMER_NO] AS [CUSTOMER_NO], 
+      [tblInvoiceLinesMaster].[CUST_GRP] AS [CUST_GRP], 
+      [tblInvoiceLinesMaster].[CONTRACT] AS [CONTRACT], 
+      [tblInvoiceLinesMaster].[CATALOG_NO] AS [CATALOG_NO], 
+      [tblInvoiceLinesMaster].[PART_NO] AS [PART_NO], 
+      [tblInvoiceLinesMaster].[PRICE_LIST_NO] AS [PRICE_LIST_NO], 
+      [tblInvoiceLinesMaster].[AUTHORIZE_CODE] AS [AUTHORIZE_CODE], 
+      [tblInvoiceLinesMaster].[SALESMAN_CODE] AS [SALESMAN_CODE], 
+      [tblInvoiceLinesMaster].[DISTRICT_CODE] AS [DISTRICT_CODE], 
+      [tblInvoiceLinesMaster].[REGION_CODE] AS [REGION_CODE], 
+      [tblInvoiceLinesMaster].[MARKET_CODE] AS [MARKET_CODE], 
+      [tblInvoiceLinesMaster].[COMPANY] AS [COMPANY], 
+      [tblInvoiceLinesMaster].[SALES_UNIT_MEAS] AS [SALES_UNIT_MEAS], 
+      [tblInvoiceLinesMaster].[PRICE_UNIT_MEAS] AS [PRICE_UNIT_MEAS], 
+      [tblInvoiceLinesMaster].[ACCT_CURRENCY_CODE] AS [ACCT_CURRENCY_CODE], 
+      [tblInvoiceLinesMaster].[ORDER_CURRENCY_CODE] AS [ORDER_CURRENCY_CODE], 
+      [tblInvoiceLinesMaster].[COUNTRY_CODE] AS [COUNTRY_CODE], 
+      [tblInvoiceLinesMaster].[CATALOG_GROUP] AS [CATALOG_GROUP], 
+      [tblInvoiceLinesMaster].[PART_DESC] AS [PART_DESC], 
+      [tblInvoiceLinesMaster].[LINE_NO] AS [LINE_NO], 
+      [tblInvoiceLinesMaster].[REL_NO] AS [REL_NO], 
+      [tblInvoiceLinesMaster].[LINE_ITEM_NO] AS [LINE_ITEM_NO], 
+      [tblInvoiceLinesMaster].[PAYER_NO] AS [PAYER_NO], 
+      [tblInvoiceLinesMaster].[PAYER_NAME] AS [PAYER_NAME], 
+      [tblInvoiceLinesMaster].[CUSTOMER_PRICE_GROUP] AS [CUSTOMER_PRICE_GROUP], 
+      [tblInvoiceLinesMaster].[CUSTOMER_PRICE_GRP_DESC] AS [CUSTOMER_PRICE_GRP_DESC], 
+      [tblInvoiceLinesMaster].[ADDITIONAL_DISCOUNT] AS [ADDITIONAL_DISCOUNT], 
+      [tblInvoiceLinesMaster].[ADDITIONAL_CURR_DISCOUNT] AS [ADDITIONAL_CURR_DISCOUNT], 
+      [tblInvoiceLinesMaster].[BRANCH] AS [BRANCH], 
+      [tblInvoiceLinesMaster].[CREATION_DATE] AS [CREATION_DATE], 
+      [tblInvoiceLinesMaster].[INVOICE_NO] AS [INVOICE_NO], 
+      [tblInvoiceLinesMaster].[SERIES_ID] AS [SERIES_ID], 
+      [tblInvoiceLinesMaster].[CONDITION_CODE] AS [CONDITION_CODE], 
+      [tblInvoiceLinesMaster].[CONDITION_CODE_DESCRIPTION] AS [CONDITION_CODE_DESCRIPTION], 
+      [tblInvoiceLinesMaster].[OBJID] AS [OBJID], 
+      [tblInvoiceLinesMaster].[OBJVERSION] AS [OBJVERSION]
+      FROM [dbo].[tblInvoiceLinesMaster] AS [tblInvoiceLinesMaster]</DefiningQuery>
+    </EntitySet>
+  </EntityContainer>
+  <EntityType Name="tblInventoryFeed">
+    <Key>
+      <PropertyRef Name="if_id" />
+    </Key>
+    <Property Name="if_id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="customer_no" Type="nvarchar" MaxLength="50" />
+    <Property Name="filetype_requested" Type="nvarchar" MaxLength="50" />
+    <Property Name="send_protocol" Type="nvarchar" MaxLength="50" />
+    <Property Name="protocol_address" Type="nvarchar(max)" />
+    <Property Name="sendtime" Type="nvarchar(max)" />
+    <Property Name="sendbuyers_partno" Type="nvarchar" MaxLength="50" />
+    <Property Name="sendaaid_instead_brand_id" Type="nvarchar" MaxLength="50" />
+    <Property Name="fields" Type="nvarchar(max)" />
+    <Property Name="sendday" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="tblInventoryFeedProcess">
+    <Key>
+      <PropertyRef Name="ifp_id" />
+    </Key>
+    <Property Name="ifp_id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="if_id" Type="int" />
+    <Property Name="time_split" Type="time" />
+    <Property Name="datetime_updated" Type="datetime" />
+    <Property Name="status" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="tblInventoryLog">
+    <Key>
+      <PropertyRef Name="il_id" />
+    </Key>
+    <Property Name="il_id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="if_id" Type="int" />
+    <Property Name="sent" Type="nvarchar" MaxLength="50" />
+    <Property Name="datetime_log" Type="datetime" />
+  </EntityType>
+  <!--Errors Found During Generation:
+      warning 6002: The table/view 'IFSReporting.dbo.tblInvoiceLinesMaster' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.
+      -->
+  <EntityType Name="tblInvoiceLinesMaster">
+    <Key>
+      <PropertyRef Name="STATISTIC_NO" />
+    </Key>
+    <Property Name="STATISTIC_NO" Type="float" Nullable="false" />
+    <Property Name="STATISTIC_DATE" Type="datetime" />
+    <Property Name="INVOICE_ID" Type="float" />
+    <Property Name="ITEM_ID" Type="float" />
+    <Property Name="INVOICE_DATE" Type="datetime" />
+    <Property Name="INVOICED_QTY" Type="float" />
+    <Property Name="COST" Type="float" />
+    <Property Name="SALE_UNIT_PRICE" Type="float" />
+    <Property Name="DISCOUNT" Type="float" />
+    <Property Name="BASE_SALE_UNIT_PRICE" Type="float" />
+    <Property Name="CURR_DISCOUNT" Type="float" />
+    <Property Name="ORDER_DISCOUNT" Type="float" />
+    <Property Name="ORDER_CURR_DISCOUNT" Type="float" />
+    <Property Name="NET_AMOUNT" Type="float" />
+    <Property Name="PRICE_QTY" Type="float" />
+    <Property Name="NET_CURR_AMOUNT" Type="float" />
+    <Property Name="GROSS_AMOUNT" Type="float" />
+    <Property Name="GROSS_CURR_AMOUNT" Type="float" />
+    <Property Name="CATALOG_DESC" Type="varchar" MaxLength="200" />
+    <Property Name="CUSTOMER_NAME" Type="varchar" MaxLength="100" />
+    <Property Name="COUNTRY_DESC" Type="varchar" MaxLength="50" />
+    <Property Name="CUST_GRP_DESC" Type="varchar" MaxLength="35" />
+    <Property Name="COMPANY_NAME" Type="varchar" MaxLength="100" />
+    <Property Name="MARKET_DESC" Type="varchar" MaxLength="35" />
+    <Property Name="REGION_DESC" Type="varchar" MaxLength="35" />
+    <Property Name="DISTRICT_DESC" Type="varchar" MaxLength="35" />
+    <Property Name="SALESMAN" Type="varchar" MaxLength="100" />
+    <Property Name="AUTHORIZE_NAME" Type="varchar" MaxLength="100" />
+    <Property Name="PRICE_LIST_DESC" Type="varchar" MaxLength="35" />
+    <Property Name="ORDER_NO" Type="varchar" MaxLength="12" />
+    <Property Name="CATALOG_GROUP_DESC" Type="varchar" MaxLength="35" />
+    <Property Name="CUSTOMER_NO" Type="varchar" MaxLength="20" />
+    <Property Name="CUST_GRP" Type="varchar" MaxLength="10" />
+    <Property Name="CONTRACT" Type="varchar" MaxLength="5" />
+    <Property Name="CATALOG_NO" Type="varchar" MaxLength="25" />
+    <Property Name="PART_NO" Type="varchar" MaxLength="25" />
+    <Property Name="PRICE_LIST_NO" Type="varchar" MaxLength="10" />
+    <Property Name="AUTHORIZE_CODE" Type="varchar" MaxLength="20" />
+    <Property Name="SALESMAN_CODE" Type="varchar" MaxLength="20" />
+    <Property Name="DISTRICT_CODE" Type="varchar" MaxLength="10" />
+    <Property Name="REGION_CODE" Type="varchar" MaxLength="10" />
+    <Property Name="MARKET_CODE" Type="varchar" MaxLength="10" />
+    <Property Name="COMPANY" Type="varchar" MaxLength="20" />
+    <Property Name="SALES_UNIT_MEAS" Type="varchar" MaxLength="50" />
+    <Property Name="PRICE_UNIT_MEAS" Type="varchar" MaxLength="50" />
+    <Property Name="ACCT_CURRENCY_CODE" Type="varchar" MaxLength="3" />
+    <Property Name="ORDER_CURRENCY_CODE" Type="varchar" MaxLength="3" />
+    <Property Name="COUNTRY_CODE" Type="varchar" MaxLength="2" />
+    <Property Name="CATALOG_GROUP" Type="varchar" MaxLength="10" />
+    <Property Name="PART_DESC" Type="varchar" MaxLength="200" />
+    <Property Name="LINE_NO" Type="varchar" MaxLength="4" />
+    <Property Name="REL_NO" Type="varchar" MaxLength="4" />
+    <Property Name="LINE_ITEM_NO" Type="float" />
+    <Property Name="PAYER_NO" Type="varchar" MaxLength="20" />
+    <Property Name="PAYER_NAME" Type="varchar" MaxLength="100" />
+    <Property Name="CUSTOMER_PRICE_GROUP" Type="varchar" MaxLength="10" />
+    <Property Name="CUSTOMER_PRICE_GRP_DESC" Type="varchar" MaxLength="35" />
+    <Property Name="ADDITIONAL_DISCOUNT" Type="float" />
+    <Property Name="ADDITIONAL_CURR_DISCOUNT" Type="float" />
+    <Property Name="BRANCH" Type="varchar" MaxLength="20" />
+    <Property Name="CREATION_DATE" Type="datetime" />
+    <Property Name="INVOICE_NO" Type="varchar" MaxLength="50" />
+    <Property Name="SERIES_ID" Type="varchar" MaxLength="20" />
+    <Property Name="CONDITION_CODE" Type="varchar" MaxLength="10" />
+    <Property Name="CONDITION_CODE_DESCRIPTION" Type="varchar" MaxLength="35" />
+    <Property Name="OBJID" Type="varchar" MaxLength="18" />
+    <Property Name="OBJVERSION" Type="varchar" MaxLength="2000" />
+  </EntityType>
+</Schema>

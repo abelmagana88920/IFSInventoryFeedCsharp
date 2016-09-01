@@ -1,0 +1,10 @@
+c:\users\abel\documents\visual studio 2012\Projects\InventoryFeedService\InventoryFeedService\bin\Debug\InventoryFeedService.exe.config
+c:\users\abel\documents\visual studio 2012\Projects\InventoryFeedService\InventoryFeedService\bin\Debug\InventoryFeedService.exe
+c:\users\abel\documents\visual studio 2012\Projects\InventoryFeedService\InventoryFeedService\bin\Debug\InventoryFeedService.pdb
+c:\users\abel\documents\visual studio 2012\Projects\InventoryFeedService\InventoryFeedService\obj\Debug\InventoryFeedService.ProjectInstaller.resources
+c:\users\abel\documents\visual studio 2012\Projects\InventoryFeedService\InventoryFeedService\obj\Debug\InventoryFeedService.csproj.GenerateResource.Cache
+c:\users\abel\documents\visual studio 2012\Projects\InventoryFeedService\InventoryFeedService\obj\Debug\InventoryFeedService.exe
+c:\users\abel\documents\visual studio 2012\Projects\InventoryFeedService\InventoryFeedService\obj\Debug\InventoryFeedService.pdb
+C:\Users\Abel\Documents\Visual Studio 2012\Projects\InventoryFeedService\InventoryFeedService\bin\Debug\EntityFramework.dll
+C:\Users\Abel\Documents\Visual Studio 2012\Projects\InventoryFeedService\InventoryFeedService\bin\Debug\EntityFramework.xml
+C:\Users\Abel\Documents\Visual Studio 2012\Projects\InventoryFeedService\InventoryFeedService\obj\Debug\InventoryFeedService.csprojResolveAssemblyReference.cache

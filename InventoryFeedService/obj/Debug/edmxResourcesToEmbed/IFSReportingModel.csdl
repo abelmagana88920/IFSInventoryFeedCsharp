@@ -1,0 +1,115 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="IFSReportingModel" Alias="Self" p1:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:p1="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityContainer Name="IFSReportingEntities2" p1:LazyLoadingEnabled="true">
+    <EntitySet Name="tblInvoiceLinesMasters" EntityType="IFSReportingModel.tblInvoiceLinesMaster" />
+    <EntitySet Name="tblInventoryLogs" EntityType="IFSReportingModel.tblInventoryLog" />
+    <EntitySet Name="tblInventoryFeeds" EntityType="IFSReportingModel.tblInventoryFeed" />
+    <EntitySet Name="tblInventoryFeedProcesses" EntityType="IFSReportingModel.tblInventoryFeedProcess" />
+  </EntityContainer>
+  <EntityType Name="tblInvoiceLinesMaster">
+    <Key>
+      <PropertyRef Name="STATISTIC_NO" />
+    </Key>
+    <Property Type="Double" Name="STATISTIC_NO" Nullable="false" />
+    <Property Type="DateTime" Name="STATISTIC_DATE" Precision="3" />
+    <Property Type="Double" Name="INVOICE_ID" />
+    <Property Type="Double" Name="ITEM_ID" />
+    <Property Type="DateTime" Name="INVOICE_DATE" Precision="3" />
+    <Property Type="Double" Name="INVOICED_QTY" />
+    <Property Type="Double" Name="COST" />
+    <Property Type="Double" Name="SALE_UNIT_PRICE" />
+    <Property Type="Double" Name="DISCOUNT" />
+    <Property Type="Double" Name="BASE_SALE_UNIT_PRICE" />
+    <Property Type="Double" Name="CURR_DISCOUNT" />
+    <Property Type="Double" Name="ORDER_DISCOUNT" />
+    <Property Type="Double" Name="ORDER_CURR_DISCOUNT" />
+    <Property Type="Double" Name="NET_AMOUNT" />
+    <Property Type="Double" Name="PRICE_QTY" />
+    <Property Type="Double" Name="NET_CURR_AMOUNT" />
+    <Property Type="Double" Name="GROSS_AMOUNT" />
+    <Property Type="Double" Name="GROSS_CURR_AMOUNT" />
+    <Property Type="String" Name="CATALOG_DESC" MaxLength="200" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="CUSTOMER_NAME" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="COUNTRY_DESC" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="CUST_GRP_DESC" MaxLength="35" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="COMPANY_NAME" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="MARKET_DESC" MaxLength="35" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="REGION_DESC" MaxLength="35" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="DISTRICT_DESC" MaxLength="35" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="SALESMAN" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="AUTHORIZE_NAME" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="PRICE_LIST_DESC" MaxLength="35" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="ORDER_NO" MaxLength="12" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="CATALOG_GROUP_DESC" MaxLength="35" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="CUSTOMER_NO" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="CUST_GRP" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="CONTRACT" MaxLength="5" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="CATALOG_NO" MaxLength="25" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="PART_NO" MaxLength="25" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="PRICE_LIST_NO" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="AUTHORIZE_CODE" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="SALESMAN_CODE" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="DISTRICT_CODE" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="REGION_CODE" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="MARKET_CODE" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="COMPANY" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="SALES_UNIT_MEAS" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="PRICE_UNIT_MEAS" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="ACCT_CURRENCY_CODE" MaxLength="3" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="ORDER_CURRENCY_CODE" MaxLength="3" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="COUNTRY_CODE" MaxLength="2" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="CATALOG_GROUP" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="PART_DESC" MaxLength="200" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="LINE_NO" MaxLength="4" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="REL_NO" MaxLength="4" FixedLength="false" Unicode="false" />
+    <Property Type="Double" Name="LINE_ITEM_NO" />
+    <Property Type="String" Name="PAYER_NO" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="PAYER_NAME" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="CUSTOMER_PRICE_GROUP" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="CUSTOMER_PRICE_GRP_DESC" MaxLength="35" FixedLength="false" Unicode="false" />
+    <Property Type="Double" Name="ADDITIONAL_DISCOUNT" />
+    <Property Type="Double" Name="ADDITIONAL_CURR_DISCOUNT" />
+    <Property Type="String" Name="BRANCH" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Type="DateTime" Name="CREATION_DATE" Precision="3" />
+    <Property Type="String" Name="INVOICE_NO" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="SERIES_ID" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="CONDITION_CODE" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="CONDITION_CODE_DESCRIPTION" MaxLength="35" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="OBJID" MaxLength="18" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="OBJVERSION" MaxLength="2000" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="tblInventoryLog">
+    <Key>
+      <PropertyRef Name="il_id" />
+    </Key>
+    <Property Type="Int32" Name="il_id" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="Int32" Name="if_id" />
+    <Property Type="String" Name="sent" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Type="DateTime" Name="datetime_log" Precision="3" />
+  </EntityType>
+  <EntityType Name="tblInventoryFeed">
+    <Key>
+      <PropertyRef Name="if_id" />
+    </Key>
+    <Property Type="Int32" Name="if_id" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="String" Name="customer_no" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="filetype_requested" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="send_protocol" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="protocol_address" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="sendtime" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="sendbuyers_partno" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="sendaaid_instead_brand_id" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="fields" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="sendday" MaxLength="50" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityType Name="tblInventoryFeedProcess">
+    <Key>
+      <PropertyRef Name="ifp_id" />
+    </Key>
+    <Property Type="Int32" Name="ifp_id" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="Int32" Name="if_id" />
+    <Property Type="Time" Name="time_split" Precision="7" />
+    <Property Type="DateTime" Name="datetime_updated" Precision="3" />
+    <Property Type="String" Name="status" MaxLength="50" FixedLength="false" Unicode="true" />
+  </EntityType>
+</Schema>

@@ -1,0 +1,115 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="IFSReportingModelStoreContainer" CdmEntityContainer="IFSReportingEntities2">
+    <EntitySetMapping Name="tblInvoiceLinesMasters">
+      <EntityTypeMapping TypeName="IFSReportingModel.tblInvoiceLinesMaster">
+        <MappingFragment StoreEntitySet="tblInvoiceLinesMaster">
+          <ScalarProperty Name="OBJVERSION" ColumnName="OBJVERSION" />
+          <ScalarProperty Name="OBJID" ColumnName="OBJID" />
+          <ScalarProperty Name="CONDITION_CODE_DESCRIPTION" ColumnName="CONDITION_CODE_DESCRIPTION" />
+          <ScalarProperty Name="CONDITION_CODE" ColumnName="CONDITION_CODE" />
+          <ScalarProperty Name="SERIES_ID" ColumnName="SERIES_ID" />
+          <ScalarProperty Name="INVOICE_NO" ColumnName="INVOICE_NO" />
+          <ScalarProperty Name="CREATION_DATE" ColumnName="CREATION_DATE" />
+          <ScalarProperty Name="BRANCH" ColumnName="BRANCH" />
+          <ScalarProperty Name="ADDITIONAL_CURR_DISCOUNT" ColumnName="ADDITIONAL_CURR_DISCOUNT" />
+          <ScalarProperty Name="ADDITIONAL_DISCOUNT" ColumnName="ADDITIONAL_DISCOUNT" />
+          <ScalarProperty Name="CUSTOMER_PRICE_GRP_DESC" ColumnName="CUSTOMER_PRICE_GRP_DESC" />
+          <ScalarProperty Name="CUSTOMER_PRICE_GROUP" ColumnName="CUSTOMER_PRICE_GROUP" />
+          <ScalarProperty Name="PAYER_NAME" ColumnName="PAYER_NAME" />
+          <ScalarProperty Name="PAYER_NO" ColumnName="PAYER_NO" />
+          <ScalarProperty Name="LINE_ITEM_NO" ColumnName="LINE_ITEM_NO" />
+          <ScalarProperty Name="REL_NO" ColumnName="REL_NO" />
+          <ScalarProperty Name="LINE_NO" ColumnName="LINE_NO" />
+          <ScalarProperty Name="PART_DESC" ColumnName="PART_DESC" />
+          <ScalarProperty Name="CATALOG_GROUP" ColumnName="CATALOG_GROUP" />
+          <ScalarProperty Name="COUNTRY_CODE" ColumnName="COUNTRY_CODE" />
+          <ScalarProperty Name="ORDER_CURRENCY_CODE" ColumnName="ORDER_CURRENCY_CODE" />
+          <ScalarProperty Name="ACCT_CURRENCY_CODE" ColumnName="ACCT_CURRENCY_CODE" />
+          <ScalarProperty Name="PRICE_UNIT_MEAS" ColumnName="PRICE_UNIT_MEAS" />
+          <ScalarProperty Name="SALES_UNIT_MEAS" ColumnName="SALES_UNIT_MEAS" />
+          <ScalarProperty Name="COMPANY" ColumnName="COMPANY" />
+          <ScalarProperty Name="MARKET_CODE" ColumnName="MARKET_CODE" />
+          <ScalarProperty Name="REGION_CODE" ColumnName="REGION_CODE" />
+          <ScalarProperty Name="DISTRICT_CODE" ColumnName="DISTRICT_CODE" />
+          <ScalarProperty Name="SALESMAN_CODE" ColumnName="SALESMAN_CODE" />
+          <ScalarProperty Name="AUTHORIZE_CODE" ColumnName="AUTHORIZE_CODE" />
+          <ScalarProperty Name="PRICE_LIST_NO" ColumnName="PRICE_LIST_NO" />
+          <ScalarProperty Name="PART_NO" ColumnName="PART_NO" />
+          <ScalarProperty Name="CATALOG_NO" ColumnName="CATALOG_NO" />
+          <ScalarProperty Name="CONTRACT" ColumnName="CONTRACT" />
+          <ScalarProperty Name="CUST_GRP" ColumnName="CUST_GRP" />
+          <ScalarProperty Name="CUSTOMER_NO" ColumnName="CUSTOMER_NO" />
+          <ScalarProperty Name="CATALOG_GROUP_DESC" ColumnName="CATALOG_GROUP_DESC" />
+          <ScalarProperty Name="ORDER_NO" ColumnName="ORDER_NO" />
+          <ScalarProperty Name="PRICE_LIST_DESC" ColumnName="PRICE_LIST_DESC" />
+          <ScalarProperty Name="AUTHORIZE_NAME" ColumnName="AUTHORIZE_NAME" />
+          <ScalarProperty Name="SALESMAN" ColumnName="SALESMAN" />
+          <ScalarProperty Name="DISTRICT_DESC" ColumnName="DISTRICT_DESC" />
+          <ScalarProperty Name="REGION_DESC" ColumnName="REGION_DESC" />
+          <ScalarProperty Name="MARKET_DESC" ColumnName="MARKET_DESC" />
+          <ScalarProperty Name="COMPANY_NAME" ColumnName="COMPANY_NAME" />
+          <ScalarProperty Name="CUST_GRP_DESC" ColumnName="CUST_GRP_DESC" />
+          <ScalarProperty Name="COUNTRY_DESC" ColumnName="COUNTRY_DESC" />
+          <ScalarProperty Name="CUSTOMER_NAME" ColumnName="CUSTOMER_NAME" />
+          <ScalarProperty Name="CATALOG_DESC" ColumnName="CATALOG_DESC" />
+          <ScalarProperty Name="GROSS_CURR_AMOUNT" ColumnName="GROSS_CURR_AMOUNT" />
+          <ScalarProperty Name="GROSS_AMOUNT" ColumnName="GROSS_AMOUNT" />
+          <ScalarProperty Name="NET_CURR_AMOUNT" ColumnName="NET_CURR_AMOUNT" />
+          <ScalarProperty Name="PRICE_QTY" ColumnName="PRICE_QTY" />
+          <ScalarProperty Name="NET_AMOUNT" ColumnName="NET_AMOUNT" />
+          <ScalarProperty Name="ORDER_CURR_DISCOUNT" ColumnName="ORDER_CURR_DISCOUNT" />
+          <ScalarProperty Name="ORDER_DISCOUNT" ColumnName="ORDER_DISCOUNT" />
+          <ScalarProperty Name="CURR_DISCOUNT" ColumnName="CURR_DISCOUNT" />
+          <ScalarProperty Name="BASE_SALE_UNIT_PRICE" ColumnName="BASE_SALE_UNIT_PRICE" />
+          <ScalarProperty Name="DISCOUNT" ColumnName="DISCOUNT" />
+          <ScalarProperty Name="SALE_UNIT_PRICE" ColumnName="SALE_UNIT_PRICE" />
+          <ScalarProperty Name="COST" ColumnName="COST" />
+          <ScalarProperty Name="INVOICED_QTY" ColumnName="INVOICED_QTY" />
+          <ScalarProperty Name="INVOICE_DATE" ColumnName="INVOICE_DATE" />
+          <ScalarProperty Name="ITEM_ID" ColumnName="ITEM_ID" />
+          <ScalarProperty Name="INVOICE_ID" ColumnName="INVOICE_ID" />
+          <ScalarProperty Name="STATISTIC_DATE" ColumnName="STATISTIC_DATE" />
+          <ScalarProperty Name="STATISTIC_NO" ColumnName="STATISTIC_NO" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblInventoryLogs">
+      <EntityTypeMapping TypeName="IFSReportingModel.tblInventoryLog">
+        <MappingFragment StoreEntitySet="tblInventoryLog">
+          <ScalarProperty Name="datetime_log" ColumnName="datetime_log" />
+          <ScalarProperty Name="sent" ColumnName="sent" />
+          <ScalarProperty Name="if_id" ColumnName="if_id" />
+          <ScalarProperty Name="il_id" ColumnName="il_id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblInventoryFeeds">
+      <EntityTypeMapping TypeName="IFSReportingModel.tblInventoryFeed">
+        <MappingFragment StoreEntitySet="tblInventoryFeed">
+          <ScalarProperty Name="sendday" ColumnName="sendday" />
+          <ScalarProperty Name="fields" ColumnName="fields" />
+          <ScalarProperty Name="sendaaid_instead_brand_id" ColumnName="sendaaid_instead_brand_id" />
+          <ScalarProperty Name="sendbuyers_partno" ColumnName="sendbuyers_partno" />
+          <ScalarProperty Name="sendtime" ColumnName="sendtime" />
+          <ScalarProperty Name="protocol_address" ColumnName="protocol_address" />
+          <ScalarProperty Name="send_protocol" ColumnName="send_protocol" />
+          <ScalarProperty Name="filetype_requested" ColumnName="filetype_requested" />
+          <ScalarProperty Name="customer_no" ColumnName="customer_no" />
+          <ScalarProperty Name="if_id" ColumnName="if_id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblInventoryFeedProcesses">
+      <EntityTypeMapping TypeName="IFSReportingModel.tblInventoryFeedProcess">
+        <MappingFragment StoreEntitySet="tblInventoryFeedProcess">
+          <ScalarProperty Name="status" ColumnName="status" />
+          <ScalarProperty Name="datetime_updated" ColumnName="datetime_updated" />
+          <ScalarProperty Name="time_split" ColumnName="time_split" />
+          <ScalarProperty Name="if_id" ColumnName="if_id" />
+          <ScalarProperty Name="ifp_id" ColumnName="ifp_id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
