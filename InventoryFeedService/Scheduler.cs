@@ -200,7 +200,7 @@ namespace InventoryFeedService
         }
 
 
-        public string DataCSVXLS(string customer_no, string filetyperequested, string fields ,IFSReportingContext db_local, tblInventoryFeedProcess inv)
+        public string DataCSVXLS(string customer_no, string filetyperequested, string fields ,string includeheaders,IFSReportingContext db_local, tblInventoryFeedProcess inv)
         {
             string localPath, localPathwofile;
             string createdNewFile;
@@ -218,14 +218,17 @@ namespace InventoryFeedService
                     string[] sArr = new string[SplitString.Length];
 
                      index=0;
-                     foreach (var field in fields.Split(new[] { ";" }, StringSplitOptions.RemoveEmptyEntries))
+
+                     if (includeheaders == "yesheader")
                      {
-                         sArr[index] = string.Format(@"""{0}""", field);
-                         index++;
-                    }
+                         foreach (var field in fields.Split(new[] { ";" }, StringSplitOptions.RemoveEmptyEntries))
+                         {
+                             sArr[index] = string.Format(@"""{0}""", field);
+                             index++;
+                         }
 
-
-                     sb.AppendLine(string.Join(",",sArr ));
+                         sb.AppendLine(string.Join(",", sArr));
+                     }
 
                      sArr = new string[SplitString.Length]; //resetting again
                     
@@ -341,6 +344,7 @@ namespace InventoryFeedService
                                              t1.protocol_address,
                                              t1.sendtime,
                                              t2.time_split,
+                                             t1.includeheaders,
                                              t1.sendbuyers_partno,
                                              t1.sendaaid_instead_brand_id,
                                              t1.sendday,
@@ -387,7 +391,7 @@ namespace InventoryFeedService
                         
                         db_local.SaveChanges();
                                                
-                       result= DataCSVXLS(i.customer_no, i.filetype_requested, i.fields, db_local, inv);
+                       result= DataCSVXLS(i.customer_no, i.filetype_requested, i.fields,i.includeheaders, db_local, inv);
                    
                        dynamic obj = Library.Json_Des(result);
                        responsestatus = obj["status"];

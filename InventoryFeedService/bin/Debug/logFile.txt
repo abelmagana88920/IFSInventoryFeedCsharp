@@ -128,3 +128,143 @@
 9/13/2016 1:45:30 AM:  abelmagana04426@gmail.com
 9/13/2016 1:45:33 AM: Send Email Successfully
 9/13/2016 1:45:33 AM: Send Email Successfully
+9/13/2016 2:11:07 AM: C:\Users\Abel\Documents\Visual Studio 2012\Projects\InventoryFeedService\InventoryFeedService\bin\Debug\..\..\App_Data\2016-09-13_02.11.07.888InventoryFeed9545.csv
+9/13/2016 2:11:07 AM: Create File Complete
+9/13/2016 2:11:07 AM: FTP HostName: abelmagana88920.orgfree.com
+9/13/2016 2:11:07 AM: Username: abelmagana88920.orgfree.com
+9/13/2016 2:11:07 AM: Password: magana88920
+9/13/2016 2:11:07 AM: FTPFolder: upload
+9/13/2016 2:11:07 AM: C:\Users\Abel\Documents\Visual Studio 2012\Projects\InventoryFeedService\InventoryFeedService\bin\Debug\..\..\App_Data\2016-09-13_02.11.07.888InventoryFeed9545.xls
+9/13/2016 2:11:13 AM: Upload File Complete, status
+9/13/2016 2:11:27 AM: C:\Users\Abel\Documents\Visual Studio 2012\Projects\InventoryFeedService\InventoryFeedService\bin\Debug\..\..\App_Data\2016-09-13_02.11.27.921InventoryFeed1336.csv
+9/13/2016 2:11:28 AM: Create File Complete
+9/13/2016 2:11:28 AM: FTP HostName: abelmagana88920.orgfree.com
+9/13/2016 2:11:28 AM: Username: abelmagana88920.orgfree.com
+9/13/2016 2:11:28 AM: Password: magana88920
+9/13/2016 2:11:28 AM: FTPFolder: upload
+9/13/2016 2:11:28 AM: C:\Users\Abel\Documents\Visual Studio 2012\Projects\InventoryFeedService\InventoryFeedService\bin\Debug\..\..\App_Data\2016-09-13_02.11.27.921InventoryFeed1336.xls
+9/13/2016 2:12:20 AM: Upload File Complete, status
+9/13/2016 2:12:58 AM: C:\Users\Abel\Documents\Visual Studio 2012\Projects\InventoryFeedService\InventoryFeedService\bin\Debug\..\..\App_Data\2016-09-13_02.12.58.046InventoryFeed1477.csv
+9/13/2016 2:12:58 AM: Create File Complete
+9/13/2016 2:12:58 AM: FTP HostName: abelmagana88920.orgfree.com
+9/13/2016 2:12:58 AM: Username: abelmagana88920.orgfree.com
+9/13/2016 2:12:58 AM: Password: magana88920
+9/13/2016 2:12:58 AM: FTPFolder: upload
+9/13/2016 2:12:58 AM: C:\Users\Abel\Documents\Visual Studio 2012\Projects\InventoryFeedService\InventoryFeedService\bin\Debug\..\..\App_Data\2016-09-13_02.12.58.046InventoryFeed1477.xls
+9/13/2016 2:13:34 AM: Upload File Complete, status
+9/13/2016 2:20:08 AM: C:\Users\Abel\Documents\Visual Studio 2012\Projects\InventoryFeedService\InventoryFeedService\bin\Debug\..\..\App_Data\2016-09-13_02.20.08.790InventoryFeed470.csv
+9/13/2016 2:20:08 AM: Create File Complete
+9/13/2016 2:20:08 AM: FTP HostName: abelmagana88920.orgfree.com
+9/13/2016 2:20:08 AM: Username: abelmagana88920.orgfree.com
+9/13/2016 2:20:08 AM: Password: magana88920
+9/13/2016 2:20:08 AM: FTPFolder: upload
+9/13/2016 2:20:08 AM: C:\Users\Abel\Documents\Visual Studio 2012\Projects\InventoryFeedService\InventoryFeedService\bin\Debug\..\..\App_Data\2016-09-13_02.20.08.790InventoryFeed470.xls
+9/13/2016 2:20:26 AM: Upload File Complete, status
+9/13/2016 2:29:09 AM: C:\Users\Abel\Documents\Visual Studio 2012\Projects\InventoryFeedService\InventoryFeedService\bin\Debug\..\..\App_Data\2016-09-13_02.29.09.598InventoryFeed7175.csv
+9/13/2016 2:29:09 AM: Create File Complete
+9/13/2016 2:29:09 AM: FTP HostName: abelmagana88920.orgfree.com
+9/13/2016 2:29:09 AM: Username: abelmagana88920.orgfree.com
+9/13/2016 2:29:09 AM: Password: magana88920
+9/13/2016 2:29:09 AM: FTPFolder: upload
+9/13/2016 2:29:09 AM: C:\Users\Abel\Documents\Visual Studio 2012\Projects\InventoryFeedService\InventoryFeedService\bin\Debug\..\..\App_Data\2016-09-13_02.29.09.598InventoryFeed7175.xls
+9/13/2016 2:29:16 AM: Upload File Complete, status
+9/13/2016 2:29:24 AM: C:\Users\Abel\Documents\Visual Studio 2012\Projects\InventoryFeedService\InventoryFeedService\bin\Debug\..\..\App_Data\2016-09-13_02.29.24.624InventoryFeed9494.csv
+9/13/2016 2:29:24 AM: Create File Complete
+9/13/2016 2:29:24 AM: FTP HostName: abelmagana88920.orgfree.com
+9/13/2016 2:29:24 AM: Username: abelmagana88920.orgfree.com
+9/13/2016 2:29:24 AM: Password: magana88920
+9/13/2016 2:29:24 AM: FTPFolder: upload
+9/13/2016 2:29:24 AM: C:\Users\Abel\Documents\Visual Studio 2012\Projects\InventoryFeedService\InventoryFeedService\bin\Debug\..\..\App_Data\2016-09-13_02.29.24.624InventoryFeed9494.xls
+9/13/2016 2:29:29 AM: Upload File Complete, status
+9/13/2016 2:30:24 AM: C:\Users\Abel\Documents\Visual Studio 2012\Projects\InventoryFeedService\InventoryFeedService\bin\Debug\..\..\App_Data\2016-09-13_02.30.24.705InventoryFeed1726.csv
+9/13/2016 2:30:24 AM: Create File Complete
+9/13/2016 2:30:24 AM: FTP HostName: abelmagana88920.orgfree.com
+9/13/2016 2:30:24 AM: Username: abelmagana88920.orgfree.com
+9/13/2016 2:30:24 AM: Password: magana88920
+9/13/2016 2:30:24 AM: FTPFolder: upload
+9/13/2016 2:30:24 AM: C:\Users\Abel\Documents\Visual Studio 2012\Projects\InventoryFeedService\InventoryFeedService\bin\Debug\..\..\App_Data\2016-09-13_02.30.24.705InventoryFeed1726.xls
+9/13/2016 2:30:32 AM: Upload File Complete, status
+9/13/2016 3:14:58 AM: C:\Users\Abel\Documents\Visual Studio 2012\Projects\InventoryFeedService\InventoryFeedService\bin\Debug\..\..\App_Data\2016-09-13_03.14.58.744InventoryFeed9478.csv
+9/13/2016 3:14:58 AM: Create File Complete
+9/13/2016 3:14:58 AM: FTP HostName: abelmagana88920.orgfree.com
+9/13/2016 3:14:58 AM: Username: abelmagana88920.orgfree.com
+9/13/2016 3:14:58 AM: Password: magana88920
+9/13/2016 3:14:58 AM: FTPFolder: upload
+9/13/2016 3:14:58 AM: C:\Users\Abel\Documents\Visual Studio 2012\Projects\InventoryFeedService\InventoryFeedService\bin\Debug\..\..\App_Data\2016-09-13_03.14.58.744InventoryFeed9478.xls
+9/13/2016 3:15:02 AM: Upload File Complete, status
+9/13/2016 3:25:34 AM: C:\Users\Abel\Documents\Visual Studio 2012\Projects\InventoryFeedService\InventoryFeedService\bin\Debug\..\..\App_Data\2016-09-13_03.25.34.693InventoryFeed6112.csv
+9/13/2016 3:25:34 AM: Create File Complete
+9/13/2016 3:25:34 AM: FTP HostName: abelmagana88920.orgfree.com
+9/13/2016 3:25:34 AM: Username: abelmagana88920.orgfree.com
+9/13/2016 3:25:34 AM: Password: magana88920
+9/13/2016 3:25:34 AM: FTPFolder: upload
+9/13/2016 3:25:34 AM: C:\Users\Abel\Documents\Visual Studio 2012\Projects\InventoryFeedService\InventoryFeedService\bin\Debug\..\..\App_Data\2016-09-13_03.25.34.693InventoryFeed6112.xls
+9/13/2016 3:26:27 AM: Upload File Complete, status
+9/13/2016 3:36:00 AM: C:\Users\Abel\Documents\Visual Studio 2012\Projects\InventoryFeedService\InventoryFeedService\bin\Debug\..\..\App_Data\2016-09-13_03.36.00.614InventoryFeed8264.csv
+9/13/2016 3:36:00 AM: Create File Complete
+9/13/2016 3:36:00 AM: FTP HostName: abelmagana88920.orgfree.com
+9/13/2016 3:36:00 AM: Username: abelmagana88920.orgfree.com
+9/13/2016 3:36:00 AM: Password: magana88920
+9/13/2016 3:36:00 AM: FTPFolder: upload
+9/13/2016 3:36:00 AM: C:\Users\Abel\Documents\Visual Studio 2012\Projects\InventoryFeedService\InventoryFeedService\bin\Debug\..\..\App_Data\2016-09-13_03.36.00.614InventoryFeed8264.xls
+9/13/2016 3:36:34 AM: Upload File Complete, status
+9/13/2016 3:36:35 AM: C:\Users\Abel\Documents\Visual Studio 2012\Projects\InventoryFeedService\InventoryFeedService\bin\Debug\..\..\App_Data\2016-09-13_03.36.35.655InventoryFeed5645.csv
+9/13/2016 3:36:35 AM: Create File Complete
+9/13/2016 3:36:35 AM: FTP HostName: abelmagana88920.orgfree.com
+9/13/2016 3:36:35 AM: Username: abelmagana88920.orgfree.com
+9/13/2016 3:36:35 AM: Password: magana88920
+9/13/2016 3:36:35 AM: FTPFolder: upload
+9/13/2016 3:36:35 AM: C:\Users\Abel\Documents\Visual Studio 2012\Projects\InventoryFeedService\InventoryFeedService\bin\Debug\..\..\App_Data\2016-09-13_03.36.35.655InventoryFeed5645.xls
+9/13/2016 3:37:03 AM: Upload File Complete, status
+9/13/2016 3:37:05 AM: C:\Users\Abel\Documents\Visual Studio 2012\Projects\InventoryFeedService\InventoryFeedService\bin\Debug\..\..\App_Data\2016-09-13_03.37.05.699InventoryFeed3555.csv
+9/13/2016 3:37:05 AM: Create File Complete
+9/13/2016 3:37:05 AM: FTP HostName: abelmagana88920.orgfree.com
+9/13/2016 3:37:05 AM: Username: abelmagana88920.orgfree.com
+9/13/2016 3:37:05 AM: Password: magana88920
+9/13/2016 3:37:05 AM: FTPFolder: upload
+9/13/2016 3:37:05 AM: C:\Users\Abel\Documents\Visual Studio 2012\Projects\InventoryFeedService\InventoryFeedService\bin\Debug\..\..\App_Data\2016-09-13_03.37.05.699InventoryFeed3555.xls
+9/13/2016 3:37:36 AM: Upload File Complete, status
+9/13/2016 3:37:40 AM: C:\Users\Abel\Documents\Visual Studio 2012\Projects\InventoryFeedService\InventoryFeedService\bin\Debug\..\..\App_Data\2016-09-13_03.37.40.760InventoryFeed2888.csv
+9/13/2016 3:37:40 AM: Create File Complete
+9/13/2016 3:37:40 AM: FTP HostName: abelmagana88920.orgfree.com
+9/13/2016 3:37:40 AM: Username: abelmagana88920.orgfree.com
+9/13/2016 3:37:40 AM: Password: magana88920
+9/13/2016 3:37:40 AM: FTPFolder: upload
+9/13/2016 3:37:40 AM: C:\Users\Abel\Documents\Visual Studio 2012\Projects\InventoryFeedService\InventoryFeedService\bin\Debug\..\..\App_Data\2016-09-13_03.37.40.760InventoryFeed2888.xls
+9/13/2016 3:37:51 AM: Upload File Complete, status
+9/13/2016 3:41:01 AM: C:\Users\Abel\Documents\Visual Studio 2012\Projects\InventoryFeedService\InventoryFeedService\bin\Debug\..\..\App_Data\2016-09-13_03.41.01.045InventoryFeed8550.csv
+9/13/2016 3:41:01 AM: Create File Complete
+9/13/2016 3:41:01 AM: FTP HostName: abelmagana88920.orgfree.com
+9/13/2016 3:41:01 AM: Username: abelmagana88920.orgfree.com
+9/13/2016 3:41:01 AM: Password: magana88920
+9/13/2016 3:41:01 AM: FTPFolder: upload
+9/13/2016 3:41:01 AM: C:\Users\Abel\Documents\Visual Studio 2012\Projects\InventoryFeedService\InventoryFeedService\bin\Debug\..\..\App_Data\2016-09-13_03.41.01.045InventoryFeed8550.xls
+9/13/2016 3:41:21 AM: Upload File Complete, status
+9/13/2016 3:52:17 AM: Inventory Feed Service stopped.
+9/13/2016 3:52:33 AM: Inventory Feed Service Started!
+9/13/2016 3:53:28 AM: C:\Users\Abel\Documents\Visual Studio 2012\Projects\InventoryFeedService\InventoryFeedService\bin\Debug\..\..\App_Data\2016-09-13_03.53.28.490InventoryFeed6428.csv
+9/13/2016 3:53:28 AM: Create File Complete
+9/13/2016 3:53:28 AM: abelmagana88920@gmail.com
+9/13/2016 3:53:28 AM:  abelmagana04426@gmail.com
+9/13/2016 3:53:30 AM: Send Email Successfully
+9/13/2016 3:53:30 AM: Send Email Successfully
+9/13/2016 3:54:18 AM: C:\Users\Abel\Documents\Visual Studio 2012\Projects\InventoryFeedService\InventoryFeedService\bin\Debug\..\..\App_Data\2016-09-13_03.54.18.514InventoryFeed5813.csv
+9/13/2016 3:54:18 AM: Create File Complete
+9/13/2016 3:54:18 AM: abelmagana88920@gmail.com
+9/13/2016 3:54:18 AM:  abelmagana04426@gmail.com
+9/13/2016 3:54:20 AM: Send Email Successfully
+9/13/2016 3:54:20 AM: Send Email Successfully
+9/13/2016 3:55:31 AM: Inventory Feed Service stopped.
+9/13/2016 3:55:45 AM: Inventory Feed Service Started!
+9/13/2016 3:57:40 AM: C:\Users\Abel\Documents\Visual Studio 2012\Projects\InventoryFeedService\InventoryFeedService\bin\Debug\..\..\App_Data\2016-09-13_03.57.40.938InventoryFeed479.csv
+9/13/2016 3:57:41 AM: Create File Complete
+9/13/2016 3:57:41 AM: abelmagana88920@gmail.com
+9/13/2016 3:57:41 AM:  abelmagana04426@gmail.com
+9/13/2016 3:57:43 AM: Send Email Successfully
+9/13/2016 3:57:43 AM: Send Email Successfully
+9/13/2016 3:58:05 AM: C:\Users\Abel\Documents\Visual Studio 2012\Projects\InventoryFeedService\InventoryFeedService\bin\Debug\..\..\App_Data\2016-09-13_03.58.05.917InventoryFeed5014.csv
+9/13/2016 3:58:06 AM: Create File Complete
+9/13/2016 3:58:06 AM: abelmagana88920@gmail.com
+9/13/2016 3:58:06 AM:  abelmagana04426@gmail.com
+9/13/2016 3:58:08 AM: Send Email Successfully
+9/13/2016 3:58:08 AM: Send Email Successfully
