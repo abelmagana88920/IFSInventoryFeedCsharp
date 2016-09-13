@@ -19,5 +19,6 @@ namespace InventoryFeedService
         public Nullable<System.TimeSpan> time_split { get; set; }
         public Nullable<System.DateTime> datetime_updated { get; set; }
         public string status { get; set; }
+        public Nullable<int> current_pr { get; set; }
     }
 }

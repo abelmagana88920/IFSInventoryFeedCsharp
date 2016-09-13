@@ -110,6 +110,7 @@ namespace InventoryFeedService
                 Library.WriteErrorLog(sendmessage);
 
                 inv.status = "3";
+                inv.current_pr = 2;
                 inv.datetime_updated = DateTime.Now;
                 db_local.SaveChanges();
                 
@@ -119,6 +120,7 @@ namespace InventoryFeedService
             catch (Exception ex)
             {
                 inv.status = "999";
+                inv.current_pr = 2;
                 db_local.SaveChanges();
                 var message_result = ex.Message + ": Failed Message";
                 Library.WriteErrorLog(message_result);
@@ -172,12 +174,15 @@ namespace InventoryFeedService
                 requestStream.Write(fileContents, 0, fileContents.Length);
                 requestStream.Close();
 
+                inv.status = "3";
+                inv.current_pr = 2;
+                inv.datetime_updated = DateTime.Now;
+                db_local.SaveChanges();
+
                 FtpWebResponse response = (FtpWebResponse)request.GetResponse();
                 response.Close();
 
-                inv.status = "3";
-                inv.datetime_updated = DateTime.Now;
-                db_local.SaveChanges();
+                
                 var message_result = "Upload File Complete, status";
                 Library.WriteErrorLog(message_result);
                 return new JavaScriptSerializer().Serialize(new { message = message_result, status = "success" });
@@ -186,6 +191,7 @@ namespace InventoryFeedService
             catch (Exception ex)
             {
                 inv.status = "999";
+                inv.current_pr = 2;
                 db_local.SaveChanges();
                 var message_result = ex.Message + ": FTP";
                 Library.WriteErrorLog(message_result);
@@ -318,6 +324,8 @@ namespace InventoryFeedService
 
             var datenow = DateTime.Now;
             var daynow = datenow.Date;
+            var dayname = DateTime.Now.DayOfWeek.ToString().Substring(0,3); //Non, Tue
+           
 
             try
             {
@@ -338,9 +346,10 @@ namespace InventoryFeedService
                                              t1.sendday,
                                              t2.status,
                                              t2.datetime_updated,
-                                             t1.fields
+                                             t1.fields,
+                                             t2.current_pr
                                          } 
-                                         ).Where(m => ( m.time_split <= timenow) && (m.status == "0")  )
+                                         ).Where(m => ( m.time_split <= timenow) && (m.status == "0") && (m.sendday.Contains(dayname))  )
                                          .Take(1).ToList();
 
 
@@ -355,7 +364,11 @@ namespace InventoryFeedService
                 db_local.SaveChanges();
                 /////////
 
-                if (InventoryFeedList.Count > 0)
+                //check if have current process else do not continue
+                var current_process = (from cp in db.tblInventoryFeedProcesses
+                                      select cp).Where(m=>m.current_pr==1).ToList();
+
+                if (InventoryFeedList.Count > 0 && current_process.Count <= 0)
                 {
                     foreach (var i in InventoryFeedList)
                     {
@@ -368,7 +381,10 @@ namespace InventoryFeedService
                         };
 
                         db_local.tblInventoryFeedProcesses.Attach(inv);                  
-                        inv.status = "1"; //update to 1
+                        inv.status = "1";
+                        inv.current_pr = 1;
+                        //update to 1
+                        
                         db_local.SaveChanges();
                                                
                        result= DataCSVXLS(i.customer_no, i.filetype_requested, i.fields, db_local, inv);

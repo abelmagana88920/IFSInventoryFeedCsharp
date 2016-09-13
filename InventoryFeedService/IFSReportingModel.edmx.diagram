@@ -8,7 +8,7 @@
         <EntityTypeShape EntityType="IFSReportingModel.tblInvoiceLinesMaster" Width="1.5" PointX="1.375" PointY="0.875" />
         <EntityTypeShape EntityType="IFSReportingModel.tblInventoryLog" Width="1.5" PointX="9.125" PointY="3.375" />
         <EntityTypeShape EntityType="IFSReportingModel.tblInventoryFeed" Width="1.5" PointX="3.625" PointY="2.125" />
-        <EntityTypeShape EntityType="IFSReportingModel.tblInventoryFeedProcess" Width="1.5" PointX="6.625" PointY="3.375" />
+        <EntityTypeShape EntityType="IFSReportingModel.tblInventoryFeedProcess" Width="1.5" PointX="0.66218984716673845" PointY="25.138392683648686" />
       </Diagram>
     </edmx:Diagrams>
   </edmx:Designer>

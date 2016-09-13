@@ -1,167 +1,130 @@
-8/31/2016 1:32:43 AM: C:\Users\Abel\Documents\Visual Studio 2012\Projects\InventoryFeedService\InventoryFeedService\bin\Debug\..\..\App_Data\2016-08-31_01.32.43.189InventoryFeed6887.csv
-8/31/2016 1:32:43 AM: Create File Complete
-8/31/2016 1:32:43 AM: abelmagana04426@gmail.com
-8/31/2016 1:32:43 AM:  abelmagana88920@gmail.com
-8/31/2016 1:32:45 AM: Send Email Successfully
-8/31/2016 1:32:45 AM: Send Email Successfully
-8/31/2016 1:48:08 AM: Inventory Feed Service stopped.
-8/31/2016 1:48:30 AM: Inventory Feed Service Started!
-8/31/2016 1:48:40 AM: The underlying provider failed on Open.:Main
-8/31/2016 1:48:44 AM: C:\Users\Abel\Documents\Visual Studio 2012\Projects\InventoryFeedService\InventoryFeedService\bin\Debug\..\..\App_Data\2016-08-31_01.48.44.636InventoryFeed4243.csv
-8/31/2016 1:48:44 AM: Create File Complete
-8/31/2016 1:48:44 AM: abelmagana04426@gmail.com
-8/31/2016 1:48:44 AM:  abelmagana88920@gmail.com
-8/31/2016 1:48:47 AM: Send Email Successfully
-8/31/2016 1:48:47 AM: Send Email Successfully
-8/31/2016 1:50:01 AM: C:\Users\Abel\Documents\Visual Studio 2012\Projects\InventoryFeedService\InventoryFeedService\bin\Debug\..\..\App_Data\2016-08-31_01.50.01.086InventoryFeed2333.csv
-8/31/2016 1:50:01 AM: Create File Complete
-8/31/2016 1:50:01 AM: abelmagana04426@gmail.com
-8/31/2016 1:50:01 AM:  abelmagana88920@gmail.com
-8/31/2016 1:50:02 AM: Send Email Successfully
-8/31/2016 1:50:02 AM: Send Email Successfully
-8/31/2016 1:50:06 AM: C:\Users\Abel\Documents\Visual Studio 2012\Projects\InventoryFeedService\InventoryFeedService\bin\Debug\..\..\App_Data\2016-08-31_01.50.06.097InventoryFeed5685.csv
-8/31/2016 1:50:06 AM: Create File Complete
-8/31/2016 1:50:06 AM: FTP HostName: abelmagana88920.orgfree.com
-8/31/2016 1:50:06 AM: Username: abelmagana88920.orgfree.com
-8/31/2016 1:50:06 AM: Password: magana88920
-8/31/2016 1:50:06 AM: FTPFolder: upload
-8/31/2016 1:50:06 AM: C:\Users\Abel\Documents\Visual Studio 2012\Projects\InventoryFeedService\InventoryFeedService\bin\Debug\..\..\App_Data\2016-08-31_01.50.06.097InventoryFeed5685.xls
-8/31/2016 1:50:11 AM: C:\Users\Abel\Documents\Visual Studio 2012\Projects\InventoryFeedService\InventoryFeedService\bin\Debug\..\..\App_Data\2016-08-31_01.50.11.104InventoryFeed7850.csv
-8/31/2016 1:50:11 AM: Create File Complete
-8/31/2016 1:50:11 AM: FTP HostName: abelmagana88920.orgfree.com
-8/31/2016 1:50:11 AM: Username: abelmagana88920.orgfree.com
-8/31/2016 1:50:11 AM: Password: magana88920
-8/31/2016 1:50:11 AM: FTPFolder: upload
-8/31/2016 1:50:11 AM: C:\Users\Abel\Documents\Visual Studio 2012\Projects\InventoryFeedService\InventoryFeedService\bin\Debug\..\..\App_Data\2016-08-31_01.50.11.104InventoryFeed7850.xls
-8/31/2016 1:50:11 AM: Upload File Complete, status
-8/31/2016 1:50:16 AM: C:\Users\Abel\Documents\Visual Studio 2012\Projects\InventoryFeedService\InventoryFeedService\bin\Debug\..\..\App_Data\2016-08-31_01.50.16.107InventoryFeed8378.csv
-8/31/2016 1:50:16 AM: Create File Complete
-8/31/2016 1:50:16 AM: FTP HostName: abelmagana88920.orgfree.com
-8/31/2016 1:50:16 AM: Username: abelmagana88920.orgfree.com
-8/31/2016 1:50:16 AM: Password: magana88920
-8/31/2016 1:50:16 AM: FTPFolder: upload
-8/31/2016 1:50:16 AM: C:\Users\Abel\Documents\Visual Studio 2012\Projects\InventoryFeedService\InventoryFeedService\bin\Debug\..\..\App_Data\2016-08-31_01.50.16.107InventoryFeed8378.xls
-8/31/2016 1:50:18 AM: Inventory Feed Service stopped.
-8/31/2016 1:50:27 AM: Inventory Feed Service Started!
-8/31/2016 1:50:37 AM: The underlying provider failed on Open.:Main
-8/31/2016 1:50:42 AM: C:\Users\Abel\Documents\Visual Studio 2012\Projects\InventoryFeedService\InventoryFeedService\bin\Debug\..\..\App_Data\2016-08-31_01.50.42.259InventoryFeed1468.csv
-8/31/2016 1:50:42 AM: Create File Complete
-8/31/2016 1:50:42 AM: abelmagana04426@gmail.com
-8/31/2016 1:50:42 AM:  abelmagana88920@gmail.com
-8/31/2016 1:50:43 AM: C:\Users\Abel\Documents\Visual Studio 2012\Projects\InventoryFeedService\InventoryFeedService\bin\Debug\..\..\App_Data\2016-08-31_01.50.43.001InventoryFeed2090.csv
-8/31/2016 1:50:43 AM: Create File Complete
-8/31/2016 1:50:43 AM: FTP HostName: abelmagana88920.orgfree.com
-8/31/2016 1:50:43 AM: Username: abelmagana88920.orgfree.com
-8/31/2016 1:50:43 AM: Password: magana88920
-8/31/2016 1:50:43 AM: FTPFolder: upload
-8/31/2016 1:50:43 AM: C:\Users\Abel\Documents\Visual Studio 2012\Projects\InventoryFeedService\InventoryFeedService\bin\Debug\..\..\App_Data\2016-08-31_01.50.43.001InventoryFeed2090.xls
-8/31/2016 1:50:44 AM: Send Email Successfully
-8/31/2016 1:50:44 AM: Send Email Successfully
-8/31/2016 1:50:47 AM: C:\Users\Abel\Documents\Visual Studio 2012\Projects\InventoryFeedService\InventoryFeedService\bin\Debug\..\..\App_Data\2016-08-31_01.50.47.995InventoryFeed2618.csv
-8/31/2016 1:50:48 AM: Create File Complete
-8/31/2016 1:50:48 AM: FTP HostName: abelmagana88920.orgfree.com
-8/31/2016 1:50:48 AM: Username: abelmagana88920.orgfree.com
-8/31/2016 1:50:48 AM: Password: magana88920
-8/31/2016 1:50:48 AM: FTPFolder: upload
-8/31/2016 1:50:48 AM: C:\Users\Abel\Documents\Visual Studio 2012\Projects\InventoryFeedService\InventoryFeedService\bin\Debug\..\..\App_Data\2016-08-31_01.50.47.995InventoryFeed2618.xls
-8/31/2016 1:50:54 AM: C:\Users\Abel\Documents\Visual Studio 2012\Projects\InventoryFeedService\InventoryFeedService\bin\Debug\..\..\App_Data\2016-08-31_01.50.54.048InventoryFeed214.csv
-8/31/2016 1:50:54 AM: Create File Complete
-8/31/2016 1:50:54 AM: FTP HostName: abelmagana88920.orgfree.com
-8/31/2016 1:50:54 AM: Username: abelmagana88920.orgfree.com
-8/31/2016 1:50:54 AM: Password: magana88920
-8/31/2016 1:50:54 AM: FTPFolder: upload
-8/31/2016 1:50:54 AM: C:\Users\Abel\Documents\Visual Studio 2012\Projects\InventoryFeedService\InventoryFeedService\bin\Debug\..\..\App_Data\2016-08-31_01.50.54.048InventoryFeed214.xls
-8/31/2016 1:50:55 AM: Upload File Complete, status
-8/31/2016 1:50:59 AM: C:\Users\Abel\Documents\Visual Studio 2012\Projects\InventoryFeedService\InventoryFeedService\bin\Debug\..\..\App_Data\2016-08-31_01.50.59.046InventoryFeed2379.csv
-8/31/2016 1:50:59 AM: Create File Complete
-8/31/2016 1:50:59 AM: FTP HostName: abelmagana88920.orgfree.com
-8/31/2016 1:50:59 AM: Username: abelmagana88920.orgfree.com
-8/31/2016 1:50:59 AM: Password: magana88920
-8/31/2016 1:50:59 AM: FTPFolder: upload
-8/31/2016 1:50:59 AM: C:\Users\Abel\Documents\Visual Studio 2012\Projects\InventoryFeedService\InventoryFeedService\bin\Debug\..\..\App_Data\2016-08-31_01.50.59.046InventoryFeed2379.xls
-8/31/2016 1:51:04 AM: Upload File Complete, status
-8/31/2016 1:51:07 AM: Upload File Complete, status
-8/31/2016 1:51:07 AM: Upload File Complete, status
-8/31/2016 1:51:49 AM: C:\Users\Abel\Documents\Visual Studio 2012\Projects\InventoryFeedService\InventoryFeedService\bin\Debug\..\..\App_Data\2016-08-31_01.51.49.822InventoryFeed3616.csv
-8/31/2016 1:51:49 AM: Create File Complete
-8/31/2016 1:51:49 AM: abelmagana04426@gmail.com
-8/31/2016 1:51:49 AM:  abelmagana88920@gmail.com
-8/31/2016 1:51:52 AM: Send Email Successfully
-8/31/2016 1:51:52 AM: Send Email Successfully
-8/31/2016 1:55:00 AM: Inventory Feed Service stopped.
-8/31/2016 1:55:12 AM: Inventory Feed Service Started!
-8/31/2016 1:55:23 AM: The underlying provider failed on Open.:Main
-8/31/2016 1:55:48 AM: C:\Users\Abel\Documents\Visual Studio 2012\Projects\InventoryFeedService\InventoryFeedService\bin\Debug\..\..\App_Data\2016-08-31_01.55.48.116InventoryFeed5887.csv
-8/31/2016 1:55:48 AM: Create File Complete
-8/31/2016 1:55:48 AM: abelmagana04426@gmail.com
-8/31/2016 1:55:48 AM:  abelmagana88920@gmail.com
-8/31/2016 1:55:50 AM: Send Email Successfully
-8/31/2016 1:55:50 AM: Send Email Successfully
-8/31/2016 1:56:28 AM: C:\Users\Abel\Documents\Visual Studio 2012\Projects\InventoryFeedService\InventoryFeedService\bin\Debug\..\..\App_Data\2016-08-31_01.56.28.134InventoryFeed2621.csv
-8/31/2016 1:56:28 AM: Create File Complete
-8/31/2016 1:56:28 AM: abelmagana04426@gmail.com
-8/31/2016 1:56:28 AM:  abelmagana88920@gmail.com
-8/31/2016 1:56:30 AM: Send Email Successfully
-8/31/2016 1:56:30 AM: Send Email Successfully
-8/31/2016 1:57:08 AM: C:\Users\Abel\Documents\Visual Studio 2012\Projects\InventoryFeedService\InventoryFeedService\bin\Debug\..\..\App_Data\2016-08-31_01.57.08.197InventoryFeed3816.csv
-8/31/2016 1:57:08 AM: Create File Complete
-8/31/2016 1:57:08 AM: abelmagana04426@gmail.com
-8/31/2016 1:57:08 AM:  abelmagana88920@gmail.com
-8/31/2016 1:57:10 AM: Send Email Successfully
-8/31/2016 1:57:10 AM: Send Email Successfully
-8/31/2016 1:58:18 AM: C:\Users\Abel\Documents\Visual Studio 2012\Projects\InventoryFeedService\InventoryFeedService\bin\Debug\..\..\App_Data\2016-08-31_01.58.18.299InventoryFeed689.csv
-8/31/2016 1:58:18 AM: Create File Complete
-8/31/2016 1:58:18 AM: abelmagana04426@gmail.com
-8/31/2016 1:58:18 AM:  abelmagana88920@gmail.com
-8/31/2016 1:58:20 AM: Send Email Successfully
-8/31/2016 1:58:20 AM: Send Email Successfully
-8/31/2016 2:00:23 AM: C:\Users\Abel\Documents\Visual Studio 2012\Projects\InventoryFeedService\InventoryFeedService\bin\Debug\..\..\App_Data\2016-08-31_02.00.23.496InventoryFeed1214.csv
-8/31/2016 2:00:23 AM: Create File Complete
-8/31/2016 2:00:23 AM: abelmagana04426@gmail.com
-8/31/2016 2:00:23 AM:  abelmagana88920@gmail.com
-8/31/2016 2:00:26 AM: Send Email Successfully
-8/31/2016 2:00:26 AM: Send Email Successfully
-8/31/2016 2:03:13 AM: An error occurred while executing the command definition. See the inner exception for details.:Main
-8/31/2016 2:03:18 AM: An error occurred while executing the command definition. See the inner exception for details.:Main
-8/31/2016 2:03:23 AM: An error occurred while executing the command definition. See the inner exception for details.:Main
-8/31/2016 2:03:28 AM: An error occurred while executing the command definition. See the inner exception for details.:Main
-8/31/2016 2:03:33 AM: An error occurred while executing the command definition. See the inner exception for details.:Main
-8/31/2016 2:03:38 AM: An error occurred while executing the command definition. See the inner exception for details.:Main
-8/31/2016 2:03:43 AM: An error occurred while executing the command definition. See the inner exception for details.:Main
-8/31/2016 2:03:48 AM: An error occurred while executing the command definition. See the inner exception for details.:Main
-8/31/2016 2:03:53 AM: An error occurred while executing the command definition. See the inner exception for details.:Main
-8/31/2016 2:03:58 AM: An error occurred while executing the command definition. See the inner exception for details.:Main
-8/31/2016 2:04:03 AM: An error occurred while executing the command definition. See the inner exception for details.:Main
-8/31/2016 2:04:08 AM: An error occurred while executing the command definition. See the inner exception for details.:Main
-8/31/2016 2:04:13 AM: An error occurred while executing the command definition. See the inner exception for details.:Main
-8/31/2016 2:04:18 AM: An error occurred while executing the command definition. See the inner exception for details.:Main
-8/31/2016 2:04:23 AM: An error occurred while executing the command definition. See the inner exception for details.:Main
-8/31/2016 2:04:28 AM: An error occurred while executing the command definition. See the inner exception for details.:Main
-8/31/2016 2:04:33 AM: An error occurred while executing the command definition. See the inner exception for details.:Main
-8/31/2016 2:04:38 AM: An error occurred while executing the command definition. See the inner exception for details.:Main
-8/31/2016 2:04:43 AM: An error occurred while executing the command definition. See the inner exception for details.:Main
-8/31/2016 2:04:48 AM: An error occurred while executing the command definition. See the inner exception for details.:Main
-8/31/2016 2:04:53 AM: An error occurred while executing the command definition. See the inner exception for details.:Main
-8/31/2016 2:04:58 AM: An error occurred while executing the command definition. See the inner exception for details.:Main
-8/31/2016 2:05:03 AM: An error occurred while executing the command definition. See the inner exception for details.:Main
-8/31/2016 2:05:08 AM: An error occurred while executing the command definition. See the inner exception for details.:Main
-8/31/2016 2:05:13 AM: An error occurred while executing the command definition. See the inner exception for details.:Main
-8/31/2016 2:05:18 AM: An error occurred while executing the command definition. See the inner exception for details.:Main
-8/31/2016 2:05:23 AM: An error occurred while executing the command definition. See the inner exception for details.:Main
-8/31/2016 2:05:28 AM: An error occurred while executing the command definition. See the inner exception for details.:Main
-8/31/2016 2:05:33 AM: Inventory Feed Service stopped.
-8/31/2016 2:06:41 AM: Inventory Feed Service Started!
-8/31/2016 2:06:51 AM: The underlying provider failed on Open.:Main
-8/31/2016 2:07:46 AM: C:\Users\Abel\Documents\Visual Studio 2012\Projects\InventoryFeedService\InventoryFeedService\bin\Debug\..\..\App_Data\2016-08-31_02.07.46.460InventoryFeed3509.csv
-8/31/2016 2:07:46 AM: Create File Complete
-8/31/2016 2:07:46 AM: abelmagana04426@gmail.com
-8/31/2016 2:07:46 AM:  abelmagana88920@gmail.com
-8/31/2016 2:07:49 AM: Send Email Successfully
-8/31/2016 2:07:49 AM: Send Email Successfully
-8/31/2016 2:08:01 AM: C:\Users\Abel\Documents\Visual Studio 2012\Projects\InventoryFeedService\InventoryFeedService\bin\Debug\..\..\App_Data\2016-08-31_02.08.01.468InventoryFeed7918.csv
-8/31/2016 2:08:01 AM: Create File Complete
-8/31/2016 2:08:01 AM: abelmagana04426@gmail.com
-8/31/2016 2:08:01 AM:  abelmagana88920@gmail.com
-8/31/2016 2:08:04 AM: Send Email Successfully
-8/31/2016 2:08:04 AM: Send Email Successfully
-8/31/2016 2:09:01 AM: Inventory Feed Service stopped.
+9/13/2016 1:31:49 AM: Inventory Feed Service stopped.
+9/13/2016 1:31:53 AM: Inventory Feed Service Started!
+9/13/2016 1:33:50 AM: Inventory Feed Service stopped.
+9/13/2016 1:34:05 AM: Inventory Feed Service Started!
+9/13/2016 1:34:10 AM: Tuesday
+9/13/2016 1:34:15 AM: Tuesday
+9/13/2016 1:34:15 AM: The underlying provider failed on Open.:Main
+9/13/2016 1:34:20 AM: Tuesday
+9/13/2016 1:34:25 AM: Tuesday
+9/13/2016 1:34:30 AM: Tuesday
+9/13/2016 1:34:35 AM: Tuesday
+9/13/2016 1:34:40 AM: Tuesday
+9/13/2016 1:34:45 AM: Tuesday
+9/13/2016 1:34:50 AM: Tuesday
+9/13/2016 1:34:55 AM: Tuesday
+9/13/2016 1:35:00 AM: Tuesday
+9/13/2016 1:35:05 AM: Tuesday
+9/13/2016 1:35:10 AM: Tuesday
+9/13/2016 1:35:15 AM: Tuesday
+9/13/2016 1:35:20 AM: Tuesday
+9/13/2016 1:35:25 AM: Tuesday
+9/13/2016 1:35:30 AM: Tuesday
+9/13/2016 1:35:35 AM: Tuesday
+9/13/2016 1:35:40 AM: Tuesday
+9/13/2016 1:35:45 AM: Tuesday
+9/13/2016 1:35:50 AM: Tuesday
+9/13/2016 1:35:55 AM: Tuesday
+9/13/2016 1:36:00 AM: Tuesday
+9/13/2016 1:36:05 AM: Tuesday
+9/13/2016 1:36:10 AM: Tuesday
+9/13/2016 1:36:15 AM: Tuesday
+9/13/2016 1:36:20 AM: Tuesday
+9/13/2016 1:36:25 AM: Tuesday
+9/13/2016 1:36:30 AM: Tuesday
+9/13/2016 1:36:35 AM: Tuesday
+9/13/2016 1:36:40 AM: Tuesday
+9/13/2016 1:36:45 AM: Tuesday
+9/13/2016 1:36:50 AM: Tuesday
+9/13/2016 1:36:55 AM: Tuesday
+9/13/2016 1:37:00 AM: Tuesday
+9/13/2016 1:37:05 AM: Tuesday
+9/13/2016 1:37:10 AM: Tuesday
+9/13/2016 1:37:15 AM: Tuesday
+9/13/2016 1:37:20 AM: Tuesday
+9/13/2016 1:37:25 AM: Tuesday
+9/13/2016 1:37:30 AM: Tuesday
+9/13/2016 1:37:35 AM: Tuesday
+9/13/2016 1:37:40 AM: Tuesday
+9/13/2016 1:37:45 AM: Tuesday
+9/13/2016 1:37:50 AM: Tuesday
+9/13/2016 1:37:55 AM: Tuesday
+9/13/2016 1:38:00 AM: Tuesday
+9/13/2016 1:38:05 AM: Tuesday
+9/13/2016 1:38:10 AM: Tuesday
+9/13/2016 1:38:15 AM: Tuesday
+9/13/2016 1:38:20 AM: Tuesday
+9/13/2016 1:38:25 AM: Tuesday
+9/13/2016 1:38:30 AM: Tuesday
+9/13/2016 1:38:35 AM: Tuesday
+9/13/2016 1:38:40 AM: Tuesday
+9/13/2016 1:38:45 AM: Tuesday
+9/13/2016 1:38:50 AM: Tuesday
+9/13/2016 1:38:55 AM: Tuesday
+9/13/2016 1:39:00 AM: Tuesday
+9/13/2016 1:39:02 AM: Inventory Feed Service stopped.
+9/13/2016 1:39:18 AM: Inventory Feed Service Started!
+9/13/2016 1:39:23 AM: Tu
+9/13/2016 1:39:28 AM: Tu
+9/13/2016 1:39:28 AM: The underlying provider failed on Open.:Main
+9/13/2016 1:39:33 AM: Tu
+9/13/2016 1:39:38 AM: Tu
+9/13/2016 1:39:43 AM: Tu
+9/13/2016 1:39:48 AM: Tu
+9/13/2016 1:39:53 AM: Tu
+9/13/2016 1:39:58 AM: Tu
+9/13/2016 1:40:03 AM: Tu
+9/13/2016 1:40:08 AM: Tu
+9/13/2016 1:40:13 AM: Tu
+9/13/2016 1:40:18 AM: Tu
+9/13/2016 1:40:23 AM: Tu
+9/13/2016 1:40:28 AM: Tu
+9/13/2016 1:40:33 AM: Tu
+9/13/2016 1:40:38 AM: Tu
+9/13/2016 1:40:43 AM: Tu
+9/13/2016 1:40:48 AM: Tu
+9/13/2016 1:40:53 AM: Tu
+9/13/2016 1:40:54 AM: Inventory Feed Service stopped.
+9/13/2016 1:41:06 AM: Inventory Feed Service Started!
+9/13/2016 1:41:11 AM: Tue
+9/13/2016 1:41:16 AM: Tue
+9/13/2016 1:41:16 AM: The underlying provider failed on Open.:Main
+9/13/2016 1:41:21 AM: Tue
+9/13/2016 1:41:26 AM: Tue
+9/13/2016 1:41:31 AM: Tue
+9/13/2016 1:41:36 AM: Tue
+9/13/2016 1:41:41 AM: Tue
+9/13/2016 1:41:46 AM: Tue
+9/13/2016 1:41:51 AM: Tue
+9/13/2016 1:41:56 AM: Tue
+9/13/2016 1:42:01 AM: Tue
+9/13/2016 1:42:06 AM: Tue
+9/13/2016 1:42:11 AM: Tue
+9/13/2016 1:42:16 AM: Tue
+9/13/2016 1:42:21 AM: Tue
+9/13/2016 1:42:26 AM: Tue
+9/13/2016 1:42:31 AM: Tue
+9/13/2016 1:42:36 AM: Tue
+9/13/2016 1:42:41 AM: Tue
+9/13/2016 1:42:46 AM: Tue
+9/13/2016 1:42:51 AM: Tue
+9/13/2016 1:42:56 AM: Tue
+9/13/2016 1:43:01 AM: Tue
+9/13/2016 1:43:06 AM: Tue
+9/13/2016 1:43:11 AM: Tue
+9/13/2016 1:43:16 AM: Tue
+9/13/2016 1:43:21 AM: Tue
+9/13/2016 1:43:26 AM: Tue
+9/13/2016 1:43:31 AM: Tue
+9/13/2016 1:43:36 AM: Tue
+9/13/2016 1:43:41 AM: Tue
+9/13/2016 1:43:46 AM: Tue
+9/13/2016 1:43:51 AM: Inventory Feed Service stopped.
+9/13/2016 1:44:05 AM: Inventory Feed Service Started!
+9/13/2016 1:44:15 AM: The underlying provider failed on Open.:Main
+9/13/2016 1:45:30 AM: C:\Users\Abel\Documents\Visual Studio 2012\Projects\InventoryFeedService\InventoryFeedService\bin\Debug\..\..\App_Data\2016-09-13_01.45.30.664InventoryFeed2499.csv
+9/13/2016 1:45:30 AM: Create File Complete
+9/13/2016 1:45:30 AM: abelmagana88920@gmail.com
+9/13/2016 1:45:30 AM:  abelmagana04426@gmail.com
+9/13/2016 1:45:33 AM: Send Email Successfully
+9/13/2016 1:45:33 AM: Send Email Successfully

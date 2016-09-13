@@ -24,5 +24,6 @@ namespace InventoryFeedService
         public string sendaaid_instead_brand_id { get; set; }
         public string fields { get; set; }
         public string sendday { get; set; }
+        public string includeheaders { get; set; }
     }
 }

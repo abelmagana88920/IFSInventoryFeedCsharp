@@ -94,6 +94,7 @@
           <Property Name="sendbuyers_partno" Type="nvarchar" MaxLength="50" />
           <Property Name="sendaaid_instead_brand_id" Type="nvarchar" MaxLength="50" />
           <Property Name="fields" Type="nvarchar(max)" />
+          <Property Name="includeheaders" Type="nvarchar" MaxLength="50" />
           <Property Name="sendday" Type="nvarchar" MaxLength="50" />
         </EntityType>
         <EntityType Name="tblInventoryFeedProcess">
@@ -105,6 +106,7 @@
           <Property Name="time_split" Type="time" />
           <Property Name="datetime_updated" Type="datetime" />
           <Property Name="status" Type="nvarchar" MaxLength="50" />
+          <Property Name="current_pr" Type="int" />
         </EntityType>
         <EntityType Name="tblInventoryLog">
           <Key>
@@ -295,6 +297,7 @@
           <Property Type="String" Name="sendaaid_instead_brand_id" MaxLength="50" FixedLength="false" Unicode="true" />
           <Property Type="String" Name="fields" MaxLength="Max" FixedLength="false" Unicode="true" />
           <Property Type="String" Name="sendday" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Type="String" Name="includeheaders" MaxLength="50" FixedLength="false" Unicode="true" />
         </EntityType>
         <EntityType Name="tblInventoryFeedProcess">
           <Key>
@@ -305,6 +308,7 @@
           <Property Type="Time" Name="time_split" Precision="7" />
           <Property Type="DateTime" Name="datetime_updated" Precision="3" />
           <Property Type="String" Name="status" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Type="Int32" Name="current_pr" />
         </EntityType>
       </Schema>
     </edmx:ConceptualModels>
@@ -398,6 +402,7 @@
           <EntitySetMapping Name="tblInventoryFeeds">
             <EntityTypeMapping TypeName="IFSReportingModel.tblInventoryFeed">
               <MappingFragment StoreEntitySet="tblInventoryFeed">
+                <ScalarProperty Name="includeheaders" ColumnName="includeheaders" />
                 <ScalarProperty Name="sendday" ColumnName="sendday" />
                 <ScalarProperty Name="fields" ColumnName="fields" />
                 <ScalarProperty Name="sendaaid_instead_brand_id" ColumnName="sendaaid_instead_brand_id" />
@@ -414,6 +419,7 @@
           <EntitySetMapping Name="tblInventoryFeedProcesses">
             <EntityTypeMapping TypeName="IFSReportingModel.tblInventoryFeedProcess">
               <MappingFragment StoreEntitySet="tblInventoryFeedProcess">
+                <ScalarProperty Name="current_pr" ColumnName="current_pr" />
                 <ScalarProperty Name="status" ColumnName="status" />
                 <ScalarProperty Name="datetime_updated" ColumnName="datetime_updated" />
                 <ScalarProperty Name="time_split" ColumnName="time_split" />

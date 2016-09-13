@@ -101,6 +101,7 @@
     <Property Type="String" Name="sendaaid_instead_brand_id" MaxLength="50" FixedLength="false" Unicode="true" />
     <Property Type="String" Name="fields" MaxLength="Max" FixedLength="false" Unicode="true" />
     <Property Type="String" Name="sendday" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="includeheaders" MaxLength="50" FixedLength="false" Unicode="true" />
   </EntityType>
   <EntityType Name="tblInventoryFeedProcess">
     <Key>
@@ -111,5 +112,6 @@
     <Property Type="Time" Name="time_split" Precision="7" />
     <Property Type="DateTime" Name="datetime_updated" Precision="3" />
     <Property Type="String" Name="status" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Type="Int32" Name="current_pr" />
   </EntityType>
 </Schema>
